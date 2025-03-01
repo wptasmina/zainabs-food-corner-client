@@ -6,7 +6,8 @@ import { HelmetProvider } from "react-helmet-async";
 // import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import { router } from "./Routes/router.jsx";
+import { router } from "./routes/router";
+
 
 
 import AOS from 'aos';

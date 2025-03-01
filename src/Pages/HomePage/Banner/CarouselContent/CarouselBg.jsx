@@ -13,29 +13,25 @@ import img6 from '../../../../assets/home/06.png'
 export default function CarouselBg() {
   return (
     <Carousel >
-    <div className="w-full h-[500px]">
+    <div className="w-full md:md:h-[500px]">
         <img src={img1} className="w-full h-full object-fill " />
         {/* <p className="legend">Legend 1</p> */}
     </div>
-    <div className="w-full h-[500px]">
+    <div className="w-full md:h-[500px]">
         <img src={img2} className="w-full h-full object-fill " />
     </div>
-    <div className="w-full h-[500px]">
+    <div className="w-full md:h-[500px]">
         <img src={img3} className="w-full h-full object-fill " />
     </div>
-    <div className="w-full h-[500px]">
+    <div className="w-full md:h-[500px]">
         <img src={img4} className="w-full h-full object-fill " />
     </div>
-    <div className="w-full h-[500px]">
+    <div className="w-full md:h-[500px]">
         <img src={img5} className="w-full h-full object-fill " />
-
     </div>
-    <div className="w-full h-[500px]">
+    <div className="w-full md:h-[500px]">
         <img src={img6} className="w-full h-full object-fill " />
-
     </div>
-
- 
 </Carousel>
   )
 }

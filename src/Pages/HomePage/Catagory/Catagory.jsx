@@ -19,8 +19,8 @@ import SectionTitle from '../../../components/SectionTitle';
 export default function Catagory() {
   return (
     <>
-     <section>
-     <div className='w-10/12 mx-auto my-10'>
+    <section>
+     <div className='md:w-10/12 mx-auto my-10'>
         <SectionTitle 
             subHeading={"---From 11:00am to 10:00pm---"}
             heading={"ORDER ONLINE"} >

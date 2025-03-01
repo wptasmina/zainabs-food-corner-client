@@ -7,7 +7,7 @@ import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/HomePage/Home";
 import Contact from "../Pages/Contact";
 import Dashbord from "../Pages/Dashbord";
-import Our_Menu from "../Pages/Our_Menu";
+import Our_Menu from './../Pages/Our-Menu/Our_Menu';
 import Our_Shop from "../Pages/Our_Shop";
 import Login from "../Login/Login";
 
