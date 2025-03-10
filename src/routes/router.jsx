@@ -8,8 +8,9 @@ import Home from "../Pages/HomePage/Home";
 import Contact from "../Pages/Contact";
 import Dashbord from "../Pages/Dashbord";
 import Our_Menu from './../Pages/Our-Menu/Our_Menu';
-import Our_Shop from "../Pages/Our_Shop";
+import Our_Shop from "../Pages/OrderFood";
 import Login from "../Login/Login";
+import OrderFood from "../Pages/OrderFood";
 
 
 export const router = createBrowserRouter([
@@ -35,8 +36,8 @@ export const router = createBrowserRouter([
         element: <Our_Menu />,
       },
       {
-        path: "/our-Shop",
-        element: <Our_Shop />,
+        path: "/order",
+        element: <OrderFood />,
       },
       {
         path: "/login",

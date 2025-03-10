@@ -18,7 +18,7 @@ export default function Navbar() {
     <li className={navItemClass}><Link to="/">CONTACT us</Link></li>
     <li className={navItemClass}><Link to="/">DASHBOARD</Link></li>
     <li className={navItemClass}><Link to="/our-Menu">Our Menu</Link></li>
-    <li className={navItemClass}><Link to="/">Our Shop</Link></li>
+    <li className={navItemClass}><Link to="/order">Order Food</Link></li>
   </>
 
 return (

@@ -76,8 +76,8 @@ export default function Testimonails() {
 
               </div>
 
-              <p>{review.details}</p>
-              <h3 className="text-2xl text-[#CD9003] font-medium">{review.name}</h3>
+              <p className='text-center'>{review.details}</p>
+              <h3 className="text-2xl text-[#CD9003] font-medium text-center">{review.name}</h3>
             </div>
           </SwiperSlide>)
         }
